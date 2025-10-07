@@ -1,12 +1,12 @@
 # Tweet Sentiment Analysis 🐦💬
-
+.
 **Author:** Nilanjan Saha
-
+.
 **Dataset:** [Sentiment140 dataset with 1.6 million tweets](https://www.kaggle.com/datasets/kazanova/sentiment140)
-
+.
 **Goal:** Develop a high-performance sentiment analysis system that achieves 83%+ accuracy in understanding social media emotions through advanced deep learning techniques.
 A comprehensive sentiment analysis project implementing and comparing multiple machine learning approaches for classifying tweet sentiments as positive or negative.
-
+.
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -73,28 +73,20 @@ The project demonstrates the evolution from classical NLP techniques to modern d
 ## 📁 Project Structure
 
 ```
-sentiment-analysis/
+
+│   README.md
 │
-├── data/
-│   ├── train_data.csv          # Training dataset
-│   ├── test_data.csv           # Test dataset
-│   └── glove.6B.*.txt          # GloVe embeddings
+├───resulting_plots
+│       logistic_reg_and_naive_bayes_preds_infographic.png
+│       Model_1_pred_infographic.png
+│       Model_1_train-val_loss-acc_plot.png
+│       Model_2_pred_infographic.png
+│       Model_2_train-val_acc_plot.png
+│       Model_2_train-val_loss_plot.png
 │
-├── models/
-│   ├── logistic_regression/    # TF-IDF + LogReg
-│   ├── naive_bayes/            # TF-IDF + NB
-│   ├── lstm_glove/             # LSTM with GloVe
-│   └── bilstm/                 # BiLSTM final model
-│
-├── notebooks/
-│   └── sentiment_analysis.ipynb
-│
-├── outputs/
-│   ├── best_model.weights.h5   # LSTM model weights
-│   ├── bilstm_glove_fixed.h5   # BiLSTM model
-│   └── tokenizer.json          # Trained tokenizer
-│
-└── README.md
+└───src
+        Twitter_Sentiment_Analysis(4 Approaches).ipynb
+
 ```
 
 ## 🛠️ Requirements
