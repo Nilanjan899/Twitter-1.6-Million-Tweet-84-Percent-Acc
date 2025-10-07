@@ -1,6 +1,9 @@
 # Tweet Sentiment Analysis 🐦💬
+
 **Author:** Nilanjan Saha
+
 **Dataset:** [Sentiment140 dataset with 1.6 million tweets](https://www.kaggle.com/datasets/kazanova/sentiment140)
+
 **Goal:** Develop a high-performance sentiment analysis system that achieves 83%+ accuracy in understanding social media emotions through advanced deep learning techniques.
 A comprehensive sentiment analysis project implementing and comparing multiple machine learning approaches for classifying tweet sentiments as positive or negative.
 
